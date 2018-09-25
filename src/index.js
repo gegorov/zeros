@@ -4,7 +4,7 @@ module.exports = function getZerosCount(number) {
   let num = number;
   while (num >= 5) {
     num = Math.floor(num / 5);
-    count = count + num;
+    count += num;
   }
   return count;
 };
